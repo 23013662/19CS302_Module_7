@@ -43,6 +43,7 @@ else
 printf("%d is the smallest number.",c);
 }
 }
+
 ```
 
 ## Output:
