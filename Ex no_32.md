@@ -17,9 +17,9 @@ To write a C program to display Hardware details such as price, product name and
 6.Print out the answer.
 
 7.End.
- 
 ## Program:
 ```
+
 /*
 C program to display Hardware details such as price, product name and price using structure.
 Developed by: 
