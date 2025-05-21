@@ -25,25 +25,17 @@ C program to read a file name from user and create that file using fopen().
 Developed by: 
 RegisterNumber:  
 */
-#include <stdio.h>
+#include <stdio.h> 
 int main()
-{
-FILE *p;
-char name[100];
-int num;
-int id;
-char text[100];
-float m;
+{FILE *p;
+char name[40]; 
 scanf("%s",name);
-scanf("%d",&num);
 p=fopen("name","w");
-printf("%s Opened\n",name);
-{
-scanf("%d %s %f",&id,text,&m);
-fprintf(p,"%d %s %f",id,text,m);
-}
+printf("%s File Created Successfully\n",name); 
+printf("%s File Opened\n",name);
 fclose(p);
-printf("Data added Successfully")
+printf("%s File Closed",name);
+}
 ```
 
 ## Output:
